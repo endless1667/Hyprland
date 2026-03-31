@@ -1,0 +1,58 @@
+window {
+margin: 0px;
+border-radius: 20px;
+background-color: #1f1e1e;
+border: 2px solid #671488;
+
+}
+
+#input {
+    margin-bottom: 6px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(57, 47, 63); /* #3c3836 */
+    color: #ebdbb2;
+    border-radius: 6px;
+}
+
+#backgroud-box {
+margin: 15px;
+border: none;
+border-radius: 15px;
+background-color: #282433;
+}
+
+#outer-box {
+margin: 15px;
+border: none;
+border-radius: 15px;
+background-color: #282433;
+}
+
+#scrollBar {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #f2f8f4;
+} 
+
+#entry.activatable #text {
+color: rgba(96, 41, 125, 0.665);
+}
+
+#entry > * {
+color: #858585;
+}
+
+#entry:selected {
+background-color: #42245b;
+}
+
+#entry:selected #text {
+font-weight: bold;
+}
